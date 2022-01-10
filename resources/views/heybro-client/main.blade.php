@@ -21,6 +21,7 @@
     </style>
 </head>
 <body class="antialiased">
-dashboard
+
+        <h2>dashboard v 0.1</h2>
 </body>
 </html>

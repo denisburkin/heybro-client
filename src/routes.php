@@ -14,6 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/dashboard', function () {
-
-    return view('heybro-client::main');
+    return view('heybro-client::heybro-client.main');
 });

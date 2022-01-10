@@ -1,0 +1,41 @@
+{
+    "name": "denisburkin/heybro-client",
+    "description": "A description for heybro-client.",
+    "type": "package",
+    "license": "MIT",
+    "keywords": [
+        "laravel"
+    ],
+    "authors": [
+        {
+            "name": "Denis Burkin",
+            "email": "m@denisburkin.ru"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^7.0|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Denisburkin\\HeybroClient\\": "./src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Denisburkin\\HeybroClient\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Denisburkin\\HeybroClient\\HeybroClientServiceProvider"
+            ]
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0"
+    }
+}
